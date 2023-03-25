@@ -17,5 +17,12 @@ public class PlayStringFormating {
                 .map(n -> n * 2)
                 .reduce(0, Integer::sum);
         System.out.println(sum);
+//////=============final variable example -can be modified
+        final  int i;
+        i=20;
+        int j= i+20;
+       // i=j+30; //java: variable i might already have been assigned
+        System.out.println(i +" == " +j);
+
     }
 }
